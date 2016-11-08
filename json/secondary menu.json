@@ -1,0 +1,97 @@
+[
+	{
+		"title":"手机",
+		"deta":[{"title":"荣耀","id":"false"},
+					{"title":"畅玩","id":"false"},
+					{"title":"华为 Mate/P系列","id":"false"}],
+		"hub":[{"title":"荣耀","id":"false"},
+					{"title":"畅玩","id":"false"},
+					{"title":"华为 Mate/P系列","id":"false"},
+					{"title":"华为 nova系列","id":"false"},
+					{"title":"华为 G系列","id":"false"},
+					{"title":"华为 畅享系列","id":"false"},
+					{"title":"合约机","id":"false"}],
+		"dl":{"title":"推荐商品","id":"false"},
+		"dd":[{"title":"以旧换新","id":"false"},
+				{"title":"荣耀 NOTE 8","id":"false"},
+				{"title":"荣耀畅玩5X","id":"false"}
+				]
+					
+	},{
+		"title":"笔记本 & 平板",
+		"deta":[{"title":"平板电脑","id":"false"},
+					{"title":"MateBook","id":"true"},
+					{"title":"拓展坞","id":"false"}],
+		"hub":[{"title":"平板电脑","id":"false"},
+					{"title":"MateBook","id":"true"},
+					{"title":"拓展坞","id":"false"},
+					{"title":"触控笔","id":"false"},
+					{"title":"二合一键盘","id":"false"}],
+		"dl":{"title":"推荐商品","id":"false"},
+		"dd":[{"title":"荣耀平板","id":"false"},
+					{"title":"HUAWEI WATCH","id":"false"},
+					{"title":"荣耀手环zero","id":"false"}
+					]
+	},{
+		"title":"穿戴",
+		"deta":[{"title":"手表","id":"false"},
+					{"title":"手环","id":"true"}],
+		"hub":[{"title":"手表","id":"false"},
+					{"title":"手环","id":"false"}]
+	},{
+		"title":"智能家居",
+		"deta":[{"title":"子母路由","id":"false"},
+					{"title":"电视盒子","id":"false"},
+					{"title":"路由器","id":"false"}],
+		"hub":[{"title":"子母路由","id":"false"},
+					{"title":"电视盒子","id":"false"},
+					{"title":"路由器","id":"false"},
+					{"title":"电力猫","id":"false"},
+					{"title":"随行wifi","id":"false"},
+					{"title":"HiLink生态产品","id":"false"}],
+		"dl":{"title":"推荐商品","id":"false"},
+		"dd":[{"title":"荣耀路由Pro 游戏版","id":"false"},
+				{"title":"荣耀盒子Pro","id":"false"},
+				{"title":"荣耀路由","id":"false"}
+				]
+	},{
+		"title":"专属配件",
+		"deta":[{"title":"保护壳","id":"false"},
+					{"title":"保护套","id":"false"},
+					{"title":"贴膜","id":"false"}],
+		"hub":[{"title":"保护壳","id":"false"},
+					{"title":"保护套","id":"false"},
+					{"title":"贴膜","id":"false"},
+					{"title":"盒子专属配件","id":"false"},
+					{"title":"表带","id":"false"},
+					{"title":"电容笔","id":"false"}],
+		"dl":{"title":"推荐商品","id":"false"},
+		"dd":[{"title":"荣耀 圈铁耳机","id":"false"},
+					{"title":"荣耀小口哨","id":"false"},
+					{"title":"耐翔 蜂巢 蓝牙耳机","id":"false"}
+					]
+	},{
+		"title":"通用配件",
+		"deta":[{"title":"耳机","id":"false"},
+					{"title":"音响","id":"false"},
+					{"title":"移动电源","id":"false"}],
+		"hub":[{"title":"耳机","id":"false"},
+					{"title":"音响","id":"false"},
+					{"title":"移动电源","id":"false"},
+					{"title":"自拍杆/支架","id":"false"},
+					{"title":"充电器/线材","id":"false"},
+					{"title":"U盘/存储卡","id":"false"},
+					{"title":"插排","id":"false"},
+					{"title":"摄像机/镜头","id":"false"},
+					{"title":"智能硬件","id":"true"},
+					{"title":"生活周边","id":"false"}],
+		"dl":{"title":"推荐商品","id":"false"},
+		"dd":[{"title":"小天鹅蓝牙耳机","id":"false"}]
+	},{
+		"title":"应用市场",
+		"deta":[{"title":"手机游戏","id":"false"},
+					{"title":"手机应用","id":"false"}],
+		"hub":[{"title":"手机游戏","id":"false"},
+					{"title":"手机应用","id":"false"}]
+	}
+]

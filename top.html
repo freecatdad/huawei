@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+  	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css"></style>
+		<script src = "js/jquery-1.10.1.min.js"></script>
+		<script src = "js/top.js"></script>	
+		<script src = "js/tool.js"></script>
+		<script src="js/perfect_startMove.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/top.css">
+	</head>
+	<body>
+		<div id = "fixed">
+			<div id = "up"></div>
+			<div id = "tickling"></div>
+			<div id = "online-service"></div>
+		</div>
+		<!-- 第一部分 -->
+		<div class = "shortcut">
+			<!-- 华为官网链接 -->
+			<div class = "s-sub">
+				<ul>
+					<li class = "s-sub-li"><a href="#">华为官网</a></li>
+					<li class = "s-sub-li"><a href="#">荣耀官网</a></li>
+					<li class = "s-sub-li" id="s-sub-li">
+						<div>
+							<a href="#">软件应用</a><i></i>
+						</div>
+						<div class = "s-sub-hid">
+							<p><a href="#">EMUI</a></p>
+							<p><a href="#">应用市场</a></p>
+							<p><a href="#">云服务</a></p>
+							<p><a href="#">开发者联盟</a></p>
+						</div>
+					</li>
+					<li class = "s-sub-li"><a href="#">花粉俱乐部</a></li>
+					<li><a href="#">Select Region</a></li>
+				</ul>
+			</div>
+			<!-- 登录注册链接 -->
+			<div class = "s-main">
+				<ul>
+					<li class = "s-sub-li black">
+						<a href="#">登录</a>
+						<a href="#">注册</a>
+					</li>
+					<li class = "s-sub-li"><a href="#">我的订单</a></li>
+					<li class = "s-sub-li"><a href="#">V码(优购码)</a></li>
+					<li class = "s-sub-li"><a href="#">手机版</a></li>
+					<li class = "s-main-nav">
+						<div>
+							<a href="#">网站导航</a>
+							<i></i>
+						</div>
+						<div class = "s-nav-hid">
+							<p><a href="#">帮助中心</a></p>
+							<p><a href="#">PC软件</a></p>
+							<p><a href="#">数字音乐</a></p>
+							<p><a href="#">爱旅</a></p>
+							<p><a href="#">华为网盘</a></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 第二部分 -->
+		<div class = "head">
+			<div class = "logo">
+				<a href="#">
+					
+				</a>
+			</div>
+			<!-- 搜索 -->
+			<div class = "search">
+				<div>
+					<form>
+						<input type = "text" class = "search-input">
+						<button></button>
+					</form>
+				</div>
+				<!-- 链接 -->
+				<div class = "searchbar">
+					<ul>
+						<li><a href="#">荣耀8</a></li>
+						<li><a href="#">P9</a></li>
+						<li><a href="#">HUAWEI nova</a></li>
+						<li><a href="#">畅玩5</a></li>
+						<li><a href="#">5A</a></li>
+					</ul>
+				</div>
+				<!-- 我的商城&购物车 -->
+				<div class = "head-toolbar">
+					<!-- 我的商城 -->
+					<div class = "head-toolbar-imall">
+						<div id = "i-mall">
+							<div class = "i-mall-d">
+								<a href="#">我的商城</a>
+								<i id = "mall-i"></i>
+							</div>
+							<div class = "i-mall-h">
+								<p>
+									你好，请
+									<a href="#">登录</a>|
+									<a href="#">注册</a>
+								</p>
+								<div class = "i-mall-uc">
+									<ul>
+										<li><a href="#">我的订单</a></li>
+										<li><a href="#">待支付</a></li>
+										<li><a href="#">待评论</a></li>
+										<li><a href="#">优惠券</a></li>
+										<li><a href="#">站内信</a></li>
+									</ul>
+								</div>
+								<div class = "i-mall-img">
+									<a href="#"><img src="img/20160127095348354.jpg"/></a>
+								</div>
+							</div>
+						</div>
+						<!-- 隐藏 -->
+						
+					</div>
+					
+					<!-- 购物车 -->
+					<div class = "head-toolbar-ishopcar">
+						<div id="i-shopcar-n">
+							<span>0</span>
+							<em></em>
+						</div>
+						<div id = "i-shopcar">
+							<div class = "i-shopcar-d">
+								<a href="#">我的购物车</a>
+								<i id = "shopcar-i"></i>
+							</div>
+							<!-- 隐藏 -->
+							<div class = "i-shopcar-h1">
+								<p></p>
+								<span>您的购物车是空的，赶紧选购吧！</span>
+							</div>
+							<div class = "i-shopcar-h2" id = "i-shopcar-full">
+								<ul></ul>
+							</div>
+							<div class = "i-shopcar-h3" id="balance">
+								<p>
+									共
+									<em id="">0</em>
+									件商品，金额合计
+									<b id="">¥&nbsp;0</b>
+								</p>
+							</div>
+						</div>
+						
+					</div>	
+				</div>
+			</div>
+			<div id = "code">
+				<!-- 二维码 -->
+				<div id="code1">
+					<a><img src="img/qrcode_vmall_app01.png" /><span>专享周三无线专场</span></a>
+				</div>
+				<div id="code2">
+					<a href=""><img src="img/qrcode_vmall_wechat01.jpg" /><span>微信扫码关注我们</span></a>
+				</div>
+				<div id= "code-hover">
+					<div id="code1-d"></div>
+					<div id = "code2-d"></div>
+				</div>
+			</div>
+		</div>
+		<div class = "nav">
+			<div class="all-goods">
+					<p>全部商品</p>
+			</div>
+			<div class = "nav-main"></div>
+		</div>
+	</body>
+</html>
